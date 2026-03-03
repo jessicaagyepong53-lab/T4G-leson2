@@ -1,0 +1,10 @@
+.Logo-and-nav{
+display: flex;
+}
+.Logo-and-nav .logo{
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    margin-right: 20px;
+}
+ 
