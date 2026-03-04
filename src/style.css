@@ -8,3 +8,40 @@ display: flex;
     margin-right: 20px;
 }
  
+h1{
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+/* This is a way to style mulitple selectors at once */
+.paragraph, .paragraph{
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 3px 0px 5px #231d1da5;
+    letter-spacing: normal;
+    word-spacing: 3px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #bfd2b4;
+    background-color: rgb(30, 166, 234);
+}
+
+#paragraph{
+    opacity: 0.8;
+    background-color: #fff;
+}
+
+header .hero-div{
+    background-image: url("../images/WhatsApp\ Image\ 2026-02-13\ at\ 12.10.53\ PM.jpeg");
+   width: 1000vw;
+   height: 300px;
+}
+/* .hero-div{ */
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+/* } */
